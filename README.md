@@ -33,4 +33,4 @@ To update your Netscript Definitions, run `npm run defs` in a terminal
 Press F1 and Select `Bitburner: Enable File Watcher` to enable auto uploading to the game
 
 ## Todo
-Create a bitburner script which detects updates to files and restarts the running script automatically
+~~Create a bitburner script which detects updates to files and restarts the running script automatically~~
