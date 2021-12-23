@@ -1,4 +1,4 @@
-const https = require("https");
+const https = require("https")
 const fs = require("fs")
 
 const url = 'https://raw.githubusercontent.com/danielyxie/bitburner/dev/src/ScriptEditor/NetscriptDefinitions.d.ts'
