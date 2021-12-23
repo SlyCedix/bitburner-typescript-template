@@ -1,4 +1,4 @@
-## Extension Recomendations
+## Extension Recommendations
 [vscode-bitburner-connector](https://github.com/hexnaught/vscode-bitburner-connector) ([vscode extension marketplace](https://marketplace.visualstudio.com/items?itemName=hexnaught.vscode-bitburner-connector)) to upload your files into the game
 
 [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) to use live linting in editor
@@ -7,7 +7,7 @@
 
 There is a workspace file in `.vscode` which contains the recommended settings for all of these
 
-## Dependancies
+## Dependencies
 [Node.js](https://nodejs.org/en/download/) required for compiling typescript and installing dependencies
 
 [git](https://git-scm.com) to download the bitburner repo to manage typescript docs for ns functions
