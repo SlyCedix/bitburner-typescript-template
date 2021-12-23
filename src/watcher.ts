@@ -24,9 +24,13 @@ export async function main(ns : NS) : Promise<void> {
                 })
 
                 for(const process of processes) {
-                    ns.tprint(`INFO: Restarting ${process.filename} ${process.args} -t ${process.threads}`)
-                    ns.kill(process.pid, ns.getHostname())
-                    ns.run(process.filename, process.threads, ...process.args)
+                    if(process.filename != ns.getScriptName()) {
+                        ns.tprint(`INFO: Restarting ${process.filename} ${process.args} -t ${process.threads}`)
+                        ns.kill(process.pid, ns.getHostname())
+                        ns.run(process.filename, process.threads, ...process.args)
+                    } else {
+                        ns.spawn(process.filename, process.threads, ...process.args)
+                    }
                 }
 
                 hashes[file] = hash
