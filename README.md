@@ -10,9 +10,6 @@ There is a workspace file in `.vscode` which contains the recommended settings f
 ## Dependencies
 [Node.js](https://nodejs.org/en/download/) required for compiling typescript and installing dependencies
 
-[git](https://git-scm.com) to download the bitburner repo to manage typescript docs for ns functions
-
-
 ## Installation
 ```
 git clone https://github.com/SlyCedix/bitburner-typescript-template.git
