@@ -1,7 +1,7 @@
 {
   "include": [
     "NetscriptDefinitions.d.ts",
-    "src/**/*",
+    "src/**/*", "foo.ts",
   ],
 
   "compilerOptions": {
@@ -19,7 +19,8 @@
     "baseUrl": "src/",
     "paths": {
       "/*.js": [ "*" ],
-      "*.js": [ "*" ]
+      "*.js": [ "*" ],
+      "@ns": ["../NetscriptDefinitions.d.ts"]
     }
   }
 }
