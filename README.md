@@ -1,3 +1,6 @@
+# This repository has been archived
+**For the most up to date version of this template, visit the official repository at https://github.com/bitburner-official/vscode-template**
+
 ## Extension Recommendations
 [vscode-bitburner-connector](https://github.com/bitburner-official/bitburner-vscode) ([vscode extension marketplace](https://marketplace.visualstudio.com/items?itemName=bitburner.bitburner-vscode-integration)) to upload your files into the game
 
