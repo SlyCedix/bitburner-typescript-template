@@ -1,9 +1,8 @@
 {
   "include": [
     "NetscriptDefinitions.d.ts",
-    "src/**/*", "foo.ts",
+    "src/**/*",
   ],
-
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",
@@ -11,16 +10,22 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "esModuleInterop": true,
-    "sourceMap": false,
+    "inlineSourceMap": true,
+    "sourceRoot": "http://localhost:8000/sources/",
     "strict": true,
-
     "rootDir": "src/",
     "outDir": "dist/",
     "baseUrl": "src/",
     "paths": {
-      "/*.js": [ "*" ],
-      "*.js": [ "*" ],
-      "@ns": ["../NetscriptDefinitions.d.ts"]
+      "/*.js": [
+        "*"
+      ],
+      "*.js": [
+        "*"
+      ],
+      "@ns": [
+        "../NetscriptDefinitions.d.ts"
+      ]
     }
   }
 }

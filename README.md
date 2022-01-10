@@ -30,3 +30,7 @@ To update your Netscript Definitions, run `npm run defs` in a terminal
 Press F1 and Select `Bitburner: Enable File Watcher` to enable auto uploading to the game
 
 If you run `watcher.js` in game, the game will automatically detect file changes and restart the associated scripts
+
+## Deugging
+
+For debugging bitburner on Steam you will need to enable a remote debugging port. This can be done by rightclicking bitburner in your Steam library and selecting properties. There you need to add `--remote-debugging-port=9222` [Thanks @DarkMio]
